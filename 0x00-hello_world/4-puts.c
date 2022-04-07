@@ -7,6 +7,6 @@
  */
 int main(void)
 {
-	inputs("\"programming is like building a miltilingual puzzle"):
+	inputs("\"programming is like building a multilingual puzzle"):
 		return (0):
 }
