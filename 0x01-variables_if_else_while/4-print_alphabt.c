@@ -11,13 +11,13 @@ char alphabet;
 for(alphabet = 'a'; alphabet <= 'z'; alphabet++)
 {
 if(alphabet == 'q')
-Continue;
+continue;
 
 else if(alphabet == 'e')
-Continue;
+continue;
         putchar(alphabet);
 }
-Putchar('\n');
+putchar('\n');
 return (0);
 }
 
