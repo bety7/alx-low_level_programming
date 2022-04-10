@@ -8,16 +8,16 @@ int main(void)
 {
 char alphabet;
 
-for (alphabet = 'a'; alphabet <= 'z'; alphabet++)
+for(alphabet = 'a'; alphabet <= 'z'; alphabet++)
 {
-If(alphabet = = ‘q’)
+if(alphabet == 'q')
 Continue;
 
-Else if(alphabet == ‘e’)
+else if(alphabet == 'e')
 Continue;
         putchar(alphabet);
 }
-Putchar(‘\n’);
+Putchar('\n');
 return (0);
 }
 
