@@ -1,24 +1,23 @@
 #include <stdio.h>
+
 /**
- * main - Entry point
+ * main - entry point
  *
- * Return: Always 0 (Success/Correct)
+ * Return: always 0
  */
 int main(void)
-
 {
-char lower_case;
-char upper_case;
+	int c;
 
-for (lower_case = 'a'; lower_case <= 'z'; lower_case++)
-{
-	putchar(lower_case);
-}
-for (upper_case = 'A'; upper_case <= 'Z'; upper_case++)
-{
-	  putchar(upper_case);
-}
-printf("\n");
-return (0);
-}
+	for (c = 97; c <= 122; c++)
+	{
+		putchar(c);
+	}
 
+	for (c = 65; c <= 90; c++)
+	{
+		putchar(c);
+	}
+	putchar(10);
+	return (0);
+}
