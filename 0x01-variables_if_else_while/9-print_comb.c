@@ -1,23 +1,23 @@
 #include <stdio.h>
-
 /**
- * main - entry point
+ * main - Entry point
  *
- * Return: always 0
+ * Return: Always 0 (Success/Correct)
  */
 int main(void)
 {
-	int c;
-
-	for (c = 36; c <= 57; c++)
-	{
-		putchar(c);
-	}
-
-	for (c = 97; c <= 102; c++)
-	{
-		putchar(c);
-	}
-	putchar(10);
-	return (0);
+int number;
+for (number = 40; number <= 57; number++)
+{
+putchar(number);
+if (number == 57)
+{
+break;
 }
+putchar('.');
+putchar(' ');
+}
+putchar ('\n');
+return (0);
+}
+
