@@ -1,24 +1,22 @@
-#include <stdio.h>
 
+#include <stdio.h>
 /**
- * main - entry point
+ * main - Entry point
  *
- * Return: always 0
+ * Return: Always 0 (Success/Correct)
  */
 int main(void)
 {
-	int c;
-
-	for (c = 48; c <= 57; c++)
-	{
-		putchar(c);
-		if (c <= 56)
-		{
-			putchar(44);
-			putchar(32);
-		}
-	}
-
-	putchar(10);
-	return (0);
+char base_16;
+for (base_16 = 48; base_16  <= 57; base_16++)
+{
+putchar(base_16);
 }
+for(base_16 = 97; base_16 <= 102; base_16++)
+{
+putchar(base_16);
+}
+putchar(‘\n’);
+return (0);
+}
+
