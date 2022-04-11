@@ -9,7 +9,7 @@ int main(void)
 {
 	int c;
 
-	for (c = 48; c <= 57; c++)
+	for (c = 40; c <= 57; c++)
 	{
 		putchar(c);
 	}
@@ -18,6 +18,6 @@ int main(void)
 	{
 		putchar(c);
 	}
-	putchar(57);
+	putchar(10);
 	return (0);
 }
