@@ -1,4 +1,4 @@
-#includei "main.h"
+#include "main.h"
 /**
  * _isupper - evalua if letter is uppercase .
  * @c: print int
@@ -16,4 +16,5 @@ else
 {
 return (0);
 }
+
 }
