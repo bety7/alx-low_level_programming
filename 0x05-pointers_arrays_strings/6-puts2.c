@@ -1,34 +1,21 @@
 #include "main.h"
 
 /**
- * cap_string - a function that capitalizes all words of a string
- * @n: input string
- * Return: caps on first letter of a separator
+ * puts2 - print reverse characters.
+ * @str: validate the character
+ * Return: Always 0.
  */
-char *cap_string(char *n)
+void puts2(char *str)
 {
-	int i, x;
-	int cap = 32;
-	int separators[] = {',', ';', '.', '?', '"',
-		 '(', ')', '{', '}', ' ', '\n', '\t'};
+	int i = 0;
 
-	for (i = 0; n[i] != '\0'; i++)
+	while (str[i] != '\0')
 	{
-		if (n[i] >= 'a' && n[i] <= 'z')
+		if (i % 2 == 0)
 		{
-			n[i] = n[i] - cap;
+		_putchar(str[i]);
 		}
-
-		cap = 0;
-
-		for (x = 0; x <= 12; x++)
-		{
-			if (n[i] == separators[x])
-			{
-				x = 12;
-				cap = 32;
-			}
-		}
+		i++;
 	}
-	return (n);
+	_putchar('\n');
 }
