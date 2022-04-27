@@ -20,3 +20,14 @@ int prime_a(int a, int b)
 	return (prime_a(a, b + 1));
 }
 
+
+/**
+ * is_prime_number - check the code for Holberton School students.
+ * @n: number
+ *
+ * Return: Always 0.
+ */
+int is_prime_number(int n)
+{
+	return (prime_a(n, 2));
+}
